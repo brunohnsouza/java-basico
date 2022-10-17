@@ -1,0 +1,54 @@
+package doWhileExercicio;
+import java.util.Scanner;
+
+public class MaiorEMedia {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		double numero1;
+		double numero2;
+		double numero3;
+		double numero4;
+		double numero5;
+		
+		double mediaNumeros;
+		double maiorNumero = 0;
+		
+		do {
+			System.out.print("Digite o número um: ");
+			numero1 = scanner.nextDouble();
+			System.out.print("Digite o número dois: ");
+			numero2 = scanner.nextDouble();
+			System.out.print("Digite o número três: ");
+			numero3 = scanner.nextDouble();
+			System.out.print("Digite o número quatro: ");
+			numero4 = scanner.nextDouble();
+			System.out.print("Digite o número cinco: ");
+			numero5 = scanner.nextDouble();
+			
+			mediaNumeros = (numero1 + numero2 + numero3 + numero4 + numero5) / 5;
+			
+			if (numero1 > numero2 && numero1 > numero3 && numero1 > numero4 && numero1 > numero5) {
+				maiorNumero = numero1;
+				System.out.println("O maior número foi: " + maiorNumero);
+			} else if(numero2 > numero1 && numero2 > numero3 && numero2 > numero4 && numero2 > numero5) {
+				maiorNumero = numero2;
+				System.out.println("O maior número foi: " + maiorNumero);
+			} else if(numero3 > numero1 && numero3 > numero2 && numero3 > numero4 && numero3 > numero5) {
+				maiorNumero = numero3;
+				System.out.println("O maior número foi: " + maiorNumero);
+			} else if(numero4 > numero1 && numero4 > numero2 && numero4 > numero3 && numero3 > numero5) {
+				maiorNumero = numero4;
+				System.out.println("O maior número foi: " + maiorNumero);
+			} else {
+				maiorNumero = numero5;
+				System.out.println("O maior número foi: " + maiorNumero);
+			}
+			
+			System.out.println("A média total dos cinco número foi de: " + mediaNumeros);
+		} while (true);
+	}
+
+}

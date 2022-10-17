@@ -1,0 +1,23 @@
+package While;
+import java.util.Scanner;
+
+public class Nota {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		int nota;
+		
+		while(true) {
+			System.out.println("Digite uma nota entre zero e dez: ");
+			nota = scanner.nextInt();
+			
+			if (nota < 0 || nota > 10) {
+				System.out.println("Número inválido. Digite uma nota entre zero e dez.");
+				scanner.close();
+				continue;
+			}
+		}
+	}
+
+}

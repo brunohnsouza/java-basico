@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/bruno/Área de Trabalho/JAVA_BASIC/MODULO_3/AULA-1/ESTRUTURAS_REPETICAO/.metadata/.plugins/org.eclipse.jdt.core
+3045818754.index
+1865797976.index
+2193125441.index

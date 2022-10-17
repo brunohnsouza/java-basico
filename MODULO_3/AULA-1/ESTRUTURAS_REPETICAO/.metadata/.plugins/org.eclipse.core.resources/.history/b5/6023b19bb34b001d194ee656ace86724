@@ -1,0 +1,23 @@
+package While;
+import java.util.Scanner;
+
+public class NomeIdade {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		String nome = "";
+		int idade = 0;
+		
+		while(nome != "0") {
+
+			System.out.print("Digite seu nome: ");
+			nome = scanner.next();
+			
+			System.out.print("Digite sua idade: ");
+			idade = scanner.nextInt();
+			
+		}
+		
+		scanner.close();
+	}
+}

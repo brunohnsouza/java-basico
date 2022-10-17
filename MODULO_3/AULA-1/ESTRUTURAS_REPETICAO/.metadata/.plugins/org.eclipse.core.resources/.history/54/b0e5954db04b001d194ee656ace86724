@@ -1,0 +1,15 @@
+package While;
+import java.util.Scanner;
+
+public class NomeIdade {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		String nome;
+		int idade;
+		
+		while (true) {
+			
+		}
+	}
+}

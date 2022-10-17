@@ -1,0 +1,10 @@
+package arraysUnidimensionais;
+
+public class NumerosAleatorios {
+	public static void main(String[] args) {
+		
+		Random randon = new Random()
+				;
+	}
+
+}

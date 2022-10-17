@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/bruno/Área de Trabalho/JAVA_BASIC/MODULO_3/AULA-1/ARRAYS/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+3045818754.index
+2193125441.index

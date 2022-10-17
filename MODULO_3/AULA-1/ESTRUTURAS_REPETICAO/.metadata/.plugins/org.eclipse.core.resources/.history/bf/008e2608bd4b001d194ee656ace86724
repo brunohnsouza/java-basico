@@ -1,0 +1,38 @@
+package doWhileExercicio;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class MaiorEMedia {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		double numero;
+		double somaDosNumeros = 0;
+		double mediaNumeros;
+		double maiorNumero = 0;
+		
+		int contador = 1;
+		
+		do {
+
+			System.out.print("Digite um número: ");
+			numero = scanner.nextDouble();
+			
+			somaDosNumeros = somaDosNumeros + numero;
+			
+			contador++;
+			System.out.println("\n");
+		} while (contador <= 5);
+		
+		if (numero > maiorNumero) {
+			maiorNumero = numero;
+			System.out.println("O maior número desses cinco foi: " + maiorNumero);
+		}
+		
+		mediaNumeros = somaDosNumeros / 5;
+		System.out.println("A média dos cinco números foi de: " + mediaNumeros);
+	}
+
+}

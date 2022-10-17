@@ -1,0 +1,33 @@
+package doWhileExercicio;
+import java.util.Scanner;
+
+public class MaiorEMedia {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		int numero1;
+		int numero2;
+		int numero3;
+		int numero4;
+		int numero5;
+		
+		int maiorNumero;
+		double mediaNumero;
+		
+		do {
+			System.out.println("Digite o número um: ");
+			numero1 = scanner.nextInt();
+			System.out.println("Digite o número dois: ");
+			numero2 = scanner.nextInt();
+			System.out.println("Digite o número três: ");
+			numero3 = scanner.nextInt();
+			System.out.println("Digite o número quatro: ");
+			numero4 = scanner.nextInt();
+			System.out.println("Digite o número cinco: ");
+			numero5 = scanner.nextInt();
+		} while (condition);
+	}
+
+}

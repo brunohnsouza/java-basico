@@ -1,0 +1,22 @@
+package forExercicio;
+
+import java.util.Scanner;
+
+public class Fatorial {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		int numeroEscolhido; 
+		int resultadoFatorial;
+
+		System.out.print("De qual número será seu fatorial? ");
+		numeroEscolhido = scanner.nextInt();
+		
+		for (int multiplicador = numeroEscolhido; multiplicador <= 1; multiplicador--) {
+			resultadoFatorial = numeroEscolhido * multiplicador;
+			System.out.println(resultadoFatorial);
+		}
+	}
+
+}

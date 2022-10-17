@@ -1,0 +1,29 @@
+package doWhileExercicio;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class MaiorEMedia {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		double numero;
+		double somaDosNumeros = 0;
+		double mediaNumeros;
+		double maiorNumero;
+		
+		do {
+			
+			for (int contador = 1; contador < 5; contador++) {
+				System.out.println("Digite um número: ");
+				numero = scanner.nextDouble();
+				
+				somaDosNumeros = somaDosNumeros + numero;
+			}
+			
+			System.out.println(somaDosNumeros);
+		} while (true);
+	}
+
+}
